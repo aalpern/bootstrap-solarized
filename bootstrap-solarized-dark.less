@@ -1,7 +1,25 @@
 /*
-* pikock http://www.pikock.com/ , autreplanete http://www.autreplanete.com/ 
-*  
+* pikock http://www.pikock.com/ , autreplanete http://www.autreplanete.com/
+*
 **/
+
+// My Variables
+@base03: #002b36;
+@base02: #073642;
+@base01: #586e75;
+@base00: #657b83;
+@base0: #839496;
+@base1: #93a1a1;
+@base2: #eee8d5;
+@base3: #fdf6e3;
+@yellow: #b58900;
+@orange: #cb4b16;
+@red: #dc322f;
+@magenta: #d33682;
+@violet: #6c71c4;
+@blue: #268bd2;
+@cyan: #2aa198;
+@green: #859900;
 
 
 // Grays
@@ -58,14 +76,14 @@
 @headings-font-family: HelveticaNeue-CondensedBold","Helvetica Neue","Arial Narrow, Arial, sans-serif;;
 @headings-font-weight: 500;
 @headings-line-height: 1.1;
-@headings-color: inherit;
+@headings-color: @base1;
 
 
 // Buttons
 @btn-font-weight: normal;
 @btn-default-color: @base1;
 @btn-default-bg: @base02;
-@btn-default-border: #ccc;
+@btn-default-border: @base01;
 @btn-primary-color: #fff;
 @btn-primary-bg: @brand-primary;
 @btn-primary-border: darken(@btn-primary-bg, 5%);
@@ -100,9 +118,9 @@
 
 // Forms
 @input-bg: @base02;
-@input-bg-disabled: @gray-lighter;
+@input-bg-disabled: @base01;
 @input-color: @base2;
-@input-border: #ccc;
+@input-border: @base01;
 @input-border-radius: @border-radius-base;
 @input-color-placeholder: @gray-light;
 @input-height-base: (@line-height-computed + (@padding-base-vertical * 2) + 2);
@@ -110,7 +128,7 @@
 @input-height-small: (floor(@font-size-small * @line-height-small) + (@padding-small-vertical * 2) + 2);
 @legend-color: @gray-dark;
 @legend-border-color: #e5e5e5;
-@input-group-addon-bg: @gray-lighter;
+@input-group-addon-bg: @base01;
 @input-group-addon-border-color: @input-border;
 
 
@@ -175,8 +193,8 @@
 
 
 // Pagination
-@pagination-bg: #fff;
-@pagination-border: #ddd;
+@pagination-bg: @base02;
+@pagination-border: @base01;
 @pagination-hover-bg: @gray-lighter;
 @pagination-hover-color: @link-hover-color;
 @pagination-hover-border: #ddd;
@@ -184,8 +202,8 @@
 @pagination-active-color: #fff;
 @pagination-active-border: @brand-primary;
 @pagination-disabled-color: @gray-light;
-@pagination-disabled-bg: #fff;
-@pagination-disabled-border: #ddd;
+@pagination-disabled-bg: @base01;
+@pagination-disabled-border: @base01;
 @pager-bg: @pagination-bg;
 @pager-border: @pagination-border;
 @pager-border-radius: 15px;
@@ -249,22 +267,3 @@
 // Sprites
 @icon-font-path: '../app/fonts/';
 @icon-font-name: glyphicons-halflings-regular;
-
-
-// My Variables
-@base03: #002b36;
-@base02: #073642;
-@base01: #586e75;
-@base00: #657b83;
-@base0: #839496;
-@base1: #93a1a1;
-@base2: #eee8d5;
-@base3: #fdf6e3;
-@yellow: #b58900;
-@orange: #cb4b16;
-@red: #dc322f;
-@magenta: #d33682;
-@violet: #6c71c4;
-@blue: #268bd2;
-@cyan: #2aa198;
-@green: #859900;
