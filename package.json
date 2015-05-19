@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/aalpern/bootstrap-solarized/issues"
   },
-  "homepage": "https://github.com/aalpern/bootstrap-solarized"
+  "homepage": "https://github.com/aalpern/bootstrap-solarized",
+  "dependencies": {
+    "bootstrap": ">=3.0.0"
+  }
 }
