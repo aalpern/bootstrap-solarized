@@ -5,6 +5,9 @@ on Ethan Schoonover's
 [solarized](http://ethanschoonover.com/solarized).  Initially created
 with [bootstrap-magic](http://pikock.github.io/bootstrap-magic).
 
+To use the color themes, load either `bootstrap-solarized-dark.css` or
+`bootstrap-solarized-light.css` _after_ loading `bootstrap.css`.
+
 This package is
 [available on npm](https://www.npmjs.com/package/bootstrap-solarized). To
 install via npm:
