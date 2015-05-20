@@ -13,6 +13,9 @@ install via npm:
 npm install bootstrap-solarized
 ```
 
+See it in real-world use providing
+[color themes for Tessera](http://urbanairship.github.io/tessera/#themes).
+
 ## Screenshots
 
 ![light](demo/light.html.png) ![dark](demo/dark.html.png)
