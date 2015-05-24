@@ -3932,22 +3932,22 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   border-color: #586e75;
 }
 .navbar-default .navbar-brand {
-  color: #777777;
+  color: #eee8d5;
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
-  color: #5e5e5e;
+  color: #2aa198;
   background-color: transparent;
 }
 .navbar-default .navbar-text {
-  color: #777777;
+  color: #93a1a1;
 }
 .navbar-default .navbar-nav > li > a {
-  color: #777777;
+  color: #93a1a1;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-  color: #333333;
+  color: #2aa198;
   background-color: transparent;
 }
 .navbar-default .navbar-nav > .active > a,
