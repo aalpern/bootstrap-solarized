@@ -22,6 +22,11 @@ npm install bootstrap-solarized
 See it in real-world use providing
 [color themes for Tessera](http://urbanairship.github.io/tessera/#themes).
 
-## Screenshots
+## Demo
+
+The `demo/` directory has a couple of small demo pages which generated
+the screenshots below, and a copy of An Vo's
+[bootstrap-tldr](https://github.com/anvoz/bootstrap-tldr), for seeing
+all Bootstrap components in one page.
 
 ![light](demo/light.html.png) ![dark](demo/dark.html.png)
