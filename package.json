@@ -1,6 +1,6 @@
 {
   "name": "bootstrap-solarized",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A pair of CSS themes for Bootstrap 3 based on Ethan Schoonover's solarized color theme. ",
   "main": "index.js",
   "scripts": {
